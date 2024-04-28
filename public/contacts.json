@@ -1,0 +1,122 @@
+[
+  {
+    "id": 0,
+    "firstName": "Emily",
+    "lastName": "Johnson",
+    "email": "emily@email.com",
+    "phone": "(000) 000-0000",
+    "imageUrl": "profile.png",
+    "lastCommunicated": "last Friday",
+    "frequency": "daily",
+    "primaryChannel": "Slack",
+    "warmth": 37
+  },
+  {
+    "id": 1,
+    "firstName": "Michael",
+    "lastName": "Smith",
+    "email": "michael@email.com",
+    "phone": "(111) 111-1111",
+    "imageUrl": "profile.png",
+    "lastCommunicated": "last Friday",
+    "frequency": "daily",
+    "primaryChannel": "Slack",
+    "warmth": 82
+  },
+  {
+    "id": 2,
+    "firstName": "Sarah",
+    "lastName": "Williams",
+    "email": "sarah@email.com",
+    "phone": "(222) 222-2222",
+    "imageUrl": "profile.png",
+    "lastCommunicated": "last Friday",
+    "frequency": "daily",
+    "primaryChannel": "Slack",
+    "warmth": 15
+  },
+  {
+    "id": 3,
+    "firstName": "Christopher",
+    "lastName": "Brown",
+    "email": "christopher@email.com",
+    "phone": "(333) 333-3333",
+    "imageUrl": "profile.png",
+    "lastCommunicated": "last Friday",
+    "frequency": "daily",
+    "primaryChannel": "Slack",
+    "warmth": 69
+  },
+  {
+    "id": 4,
+    "firstName": "Jessica",
+    "lastName": "Davis",
+    "email": "jessica@email.com",
+    "phone": "(444) 444-4444",
+    "imageUrl": "profile.png",
+    "lastCommunicated": "last Friday",
+    "frequency": "daily",
+    "primaryChannel": "Slack",
+    "warmth": 43
+  },
+  {
+    "id": 5,
+    "firstName": "Matthew",
+    "lastName": "Wilson",
+    "email": "matthew@email.com",
+    "phone": "(555) 555-5555",
+    "imageUrl": "profile.png",
+    "lastCommunicated": "last Friday",
+    "frequency": "daily",
+    "primaryChannel": "Slack",
+    "warmth": 91
+  },
+  {
+    "id": 6,
+    "firstName": "Olivia",
+    "lastName": "Taylor",
+    "email": "olivia@email.com",
+    "phone": "(666) 666-6666",
+    "imageUrl": "profile.png",
+    "lastCommunicated": "last Friday",
+    "frequency": "daily",
+    "primaryChannel": "Slack",
+    "warmth": 5
+  },
+  {
+    "id": 7,
+    "firstName": "Ethan",
+    "lastName": "Martinez",
+    "email": "ethan@email.com",
+    "phone": "(777) 777-7777",
+    "imageUrl": "profile.png",
+    "lastCommunicated": "last Friday",
+    "frequency": "daily",
+    "primaryChannel": "Slack",
+    "warmth": 20
+  },
+  {
+    "id": 8,
+    "firstName": "Sophia",
+    "lastName": "Anderson",
+    "email": "sophia@email.com",
+    "phone": "(888) 888-8888",
+    "imageUrl": "profile.png",
+    "lastCommunicated": "last Friday",
+    "frequency": "daily",
+    "primaryChannel": "Slack",
+    "warmth": 56
+  },
+  {
+    "id": 9,
+    "firstName": "Alexander",
+    "lastName": "Garcia",
+    "email": "alexander@email.com",
+    "phone": "(999) 999-9999",
+    "imageUrl": "profile.png",
+    "lastCommunicated": "last Friday",
+    "frequency": "daily",
+    "primaryChannel": "Slack",
+    "warmth": 74
+  }
+]

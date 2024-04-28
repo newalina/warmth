@@ -27,23 +27,10 @@
   left: 0; */
 }
 
-.list {
-  flex: 0 0 60%;
-  margin-left: auto;
-  overflow-y: auto;
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* flex-wrap: wrap; */
-  /* max-width: 50vw; */
-}
+.nav {
+  margin-top: 100px;
 
-.profile {
-  margin-left: auto;
-}
-
-.info {
-  color: #a7715f;
-  /* font-weight: 600; */
+  position: fixed;
 }
 
 @media (max-width: 1024px) {
@@ -54,13 +41,5 @@
   .title {
     flex: 0 0 100%;
     font-size: 3rem;
-  }
-
-  .list {
-    flex: 0 0 100%;
-  }
-
-  .summary {
-    font-size: 1.5em;
   }
 }

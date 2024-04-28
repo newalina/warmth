@@ -29,27 +29,6 @@ summary::-webkit-details-marker {
   display: none;
 }
 
-span {
-  position: relative;
-  display: flex;
-  align-items: center;
-  padding-left: 1rem;
-  height: 4rem;
-}
-
-span:hover {
-  cursor: pointer;
-}
-
-span::before {
-  content: "►";
-  font-size: 1rem;
-  display: flex;
-  align-items: center;
-  margin-right: 1rem;
-  transition: rotate 0.2s ease-out;
-}
-
 div.content {
   max-height: 0;
   overflow: hidden;
