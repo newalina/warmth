@@ -99,275 +99,37 @@ export default function Home() {
         <h1 className={styles.title}>Contacts</h1>
 
         <div className={styles.list}>
-          <div className="contact">
-            <details className={styles.details}>
-              <summary className={styles.summary}>
-                <span>
-                  <p>Alina Kim</p>
-                  <Image
-                    className={styles.profile}
-                    src="/profile.png"
-                    height="40"
-                    width="40"
-                    alt="profile picture"
-                  />
-                </span>
-              </summary>
-            </details>
-            <div className="content">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                dapibus rutrum feugiat. Curabitur dictum ex eget tellus congue
-                fringilla. In finibus lorem quis lacus vulputate fermentum.
-                Aliquam tristique felis sed mauris sagittis pharetra. Integer
-                justo velit, volutpat et semper pulvinar, scelerisque eget leo.
-              </p>
+          {contacts.map((contact) => (
+            <div key={contact.id} className="contact">
+              <details className={styles.details}>
+                <summary className={styles.summary}>
+                  <span>
+                    <p>
+                      {contact.firstName} {contact.lastName}
+                    </p>
+                    <img
+                      className={styles.profile}
+                      src={contact.imageUrl}
+                      height="40"
+                      width="40"
+                      alt={`${contact.firstName}'s profile picture`}
+                    />
+                  </span>
+                </summary>
+              </details>
+              <div className="content">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aliquam dapibus rutrum feugiat. Curabitur dictum ex eget
+                  tellus congue fringilla. In finibus lorem quis lacus vulputate
+                  fermentum. Aliquam tristique felis sed mauris sagittis
+                  pharetra. Integer justo velit, volutpat et semper pulvinar,
+                  scelerisque eget leo.
+                </p>
+              </div>
+              <hr />
             </div>
-            <hr />
-          </div>
-
-          <div className="contact">
-            <details className={styles.details}>
-              <summary className={styles.summary}>
-                <span>
-                  <p>Alina Kim</p>
-                  <Image
-                    className={styles.profile}
-                    src="/profile.png"
-                    height="40"
-                    width="40"
-                    alt="profile picture"
-                  />
-                </span>
-              </summary>
-            </details>
-            <div className="content">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                dapibus rutrum feugiat. Curabitur dictum ex eget tellus congue
-                fringilla. In finibus lorem quis lacus vulputate fermentum.
-                Aliquam tristique felis sed mauris sagittis pharetra. Integer
-                justo velit, volutpat et semper pulvinar, scelerisque eget leo.
-              </p>
-            </div>
-            <hr />
-          </div>
-
-          <div className="contact">
-            <details className={styles.details}>
-              <summary className={styles.summary}>
-                <span>
-                  <p>Alina Kim</p>
-                  <Image
-                    className={styles.profile}
-                    src="/profile.png"
-                    height="40"
-                    width="40"
-                    alt="profile picture"
-                  />
-                </span>
-              </summary>
-            </details>
-            <div className="content">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                dapibus rutrum feugiat. Curabitur dictum ex eget tellus congue
-                fringilla. In finibus lorem quis lacus vulputate fermentum.
-                Aliquam tristique felis sed mauris sagittis pharetra. Integer
-                justo velit, volutpat et semper pulvinar, scelerisque eget leo.
-              </p>
-            </div>
-            <hr />
-          </div>
-
-          <div className="contact">
-            <details className={styles.details}>
-              <summary className={styles.summary}>
-                <span>
-                  <p>Alina Kim</p>
-                  <Image
-                    className={styles.profile}
-                    src="/profile.png"
-                    height="40"
-                    width="40"
-                    alt="profile picture"
-                  />
-                </span>
-              </summary>
-            </details>
-            <div className="content">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                dapibus rutrum feugiat. Curabitur dictum ex eget tellus congue
-                fringilla. In finibus lorem quis lacus vulputate fermentum.
-                Aliquam tristique felis sed mauris sagittis pharetra. Integer
-                justo velit, volutpat et semper pulvinar, scelerisque eget leo.
-              </p>
-            </div>
-            <hr />
-          </div>
-
-          <div className="contact">
-            <details className={styles.details}>
-              <summary className={styles.summary}>
-                <span>
-                  <p>Alina Kim</p>
-                  <Image
-                    className={styles.profile}
-                    src="/profile.png"
-                    height="40"
-                    width="40"
-                    alt="profile picture"
-                  />
-                </span>
-              </summary>
-            </details>
-            <div className="content">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                dapibus rutrum feugiat. Curabitur dictum ex eget tellus congue
-                fringilla. In finibus lorem quis lacus vulputate fermentum.
-                Aliquam tristique felis sed mauris sagittis pharetra. Integer
-                justo velit, volutpat et semper pulvinar, scelerisque eget leo.
-              </p>
-            </div>
-            <hr />
-          </div>
-
-          <div className="contact">
-            <details className={styles.details}>
-              <summary className={styles.summary}>
-                <span>
-                  <p>Alina Kim</p>
-                  <Image
-                    className={styles.profile}
-                    src="/profile.png"
-                    height="40"
-                    width="40"
-                    alt="profile picture"
-                  />
-                </span>
-              </summary>
-            </details>
-            <div className="content">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                dapibus rutrum feugiat. Curabitur dictum ex eget tellus congue
-                fringilla. In finibus lorem quis lacus vulputate fermentum.
-                Aliquam tristique felis sed mauris sagittis pharetra. Integer
-                justo velit, volutpat et semper pulvinar, scelerisque eget leo.
-              </p>
-            </div>
-            <hr />
-          </div>
-
-          <div className="contact">
-            <details className={styles.details}>
-              <summary className={styles.summary}>
-                <span>
-                  <p>Alina Kim</p>
-                  <Image
-                    className={styles.profile}
-                    src="/profile.png"
-                    height="40"
-                    width="40"
-                    alt="profile picture"
-                  />
-                </span>
-              </summary>
-            </details>
-            <div className="content">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                dapibus rutrum feugiat. Curabitur dictum ex eget tellus congue
-                fringilla. In finibus lorem quis lacus vulputate fermentum.
-                Aliquam tristique felis sed mauris sagittis pharetra. Integer
-                justo velit, volutpat et semper pulvinar, scelerisque eget leo.
-              </p>
-            </div>
-            <hr />
-          </div>
-
-          <div className="contact">
-            <details className={styles.details}>
-              <summary className={styles.summary}>
-                <span>
-                  <p>Alina Kim</p>
-                  <Image
-                    className={styles.profile}
-                    src="/profile.png"
-                    height="40"
-                    width="40"
-                    alt="profile picture"
-                  />
-                </span>
-              </summary>
-            </details>
-            <div className="content">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                dapibus rutrum feugiat. Curabitur dictum ex eget tellus congue
-                fringilla. In finibus lorem quis lacus vulputate fermentum.
-                Aliquam tristique felis sed mauris sagittis pharetra. Integer
-                justo velit, volutpat et semper pulvinar, scelerisque eget leo.
-              </p>
-            </div>
-            <hr />
-          </div>
-
-          <div className="contact">
-            <details className={styles.details}>
-              <summary className={styles.summary}>
-                <span>
-                  <p>Alina Kim</p>
-                  <Image
-                    className={styles.profile}
-                    src="/profile.png"
-                    height="40"
-                    width="40"
-                    alt="profile picture"
-                  />
-                </span>
-              </summary>
-            </details>
-            <div className="content">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                dapibus rutrum feugiat. Curabitur dictum ex eget tellus congue
-                fringilla. In finibus lorem quis lacus vulputate fermentum.
-                Aliquam tristique felis sed mauris sagittis pharetra. Integer
-                justo velit, volutpat et semper pulvinar, scelerisque eget leo.
-              </p>
-            </div>
-            <hr />
-          </div>
-
-          <div className="contact">
-            <details className={styles.details}>
-              <summary className={styles.summary}>
-                <span>
-                  <p>Alina Kim</p>
-                  <Image
-                    className={styles.profile}
-                    src="/profile.png"
-                    height="40"
-                    width="40"
-                    alt="profile picture"
-                  />
-                </span>
-              </summary>
-            </details>
-            <div className="content">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                dapibus rutrum feugiat. Curabitur dictum ex eget tellus congue
-                fringilla. In finibus lorem quis lacus vulputate fermentum.
-                Aliquam tristique felis sed mauris sagittis pharetra. Integer
-                justo velit, volutpat et semper pulvinar, scelerisque eget leo.
-              </p>
-            </div>
-            <hr />
-          </div>
+          ))}
         </div>
       </main>
 
