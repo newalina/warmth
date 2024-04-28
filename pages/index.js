@@ -104,10 +104,11 @@ export default function Home() {
               <summary className={styles.summary}>
                 <span>
                   <p>Alina Kim</p>
-                  <img
+                  <Image
                     className={styles.profile}
                     src="/profile.png"
-                    width="40px"
+                    height="40"
+                    width="40"
                     alt="profile picture"
                   />
                 </span>
@@ -130,10 +131,11 @@ export default function Home() {
               <summary className={styles.summary}>
                 <span>
                   <p>Alina Kim</p>
-                  <img
+                  <Image
                     className={styles.profile}
                     src="/profile.png"
-                    width="40px"
+                    height="40"
+                    width="40"
                     alt="profile picture"
                   />
                 </span>
@@ -156,10 +158,11 @@ export default function Home() {
               <summary className={styles.summary}>
                 <span>
                   <p>Alina Kim</p>
-                  <img
+                  <Image
                     className={styles.profile}
                     src="/profile.png"
-                    width="40px"
+                    height="40"
+                    width="40"
                     alt="profile picture"
                   />
                 </span>
@@ -182,10 +185,11 @@ export default function Home() {
               <summary className={styles.summary}>
                 <span>
                   <p>Alina Kim</p>
-                  <img
+                  <Image
                     className={styles.profile}
                     src="/profile.png"
-                    width="40px"
+                    height="40"
+                    width="40"
                     alt="profile picture"
                   />
                 </span>
@@ -208,10 +212,11 @@ export default function Home() {
               <summary className={styles.summary}>
                 <span>
                   <p>Alina Kim</p>
-                  <img
+                  <Image
                     className={styles.profile}
                     src="/profile.png"
-                    width="40px"
+                    height="40"
+                    width="40"
                     alt="profile picture"
                   />
                 </span>
@@ -234,10 +239,11 @@ export default function Home() {
               <summary className={styles.summary}>
                 <span>
                   <p>Alina Kim</p>
-                  <img
+                  <Image
                     className={styles.profile}
                     src="/profile.png"
-                    width="40px"
+                    height="40"
+                    width="40"
                     alt="profile picture"
                   />
                 </span>
@@ -260,10 +266,11 @@ export default function Home() {
               <summary className={styles.summary}>
                 <span>
                   <p>Alina Kim</p>
-                  <img
+                  <Image
                     className={styles.profile}
                     src="/profile.png"
-                    width="40px"
+                    height="40"
+                    width="40"
                     alt="profile picture"
                   />
                 </span>
@@ -286,10 +293,11 @@ export default function Home() {
               <summary className={styles.summary}>
                 <span>
                   <p>Alina Kim</p>
-                  <img
+                  <Image
                     className={styles.profile}
                     src="/profile.png"
-                    width="40px"
+                    height="40"
+                    width="40"
                     alt="profile picture"
                   />
                 </span>
@@ -312,10 +320,11 @@ export default function Home() {
               <summary className={styles.summary}>
                 <span>
                   <p>Alina Kim</p>
-                  <img
+                  <Image
                     className={styles.profile}
                     src="/profile.png"
-                    width="40px"
+                    height="40"
+                    width="40"
                     alt="profile picture"
                   />
                 </span>
@@ -338,10 +347,11 @@ export default function Home() {
               <summary className={styles.summary}>
                 <span>
                   <p>Alina Kim</p>
-                  <img
+                  <Image
                     className={styles.profile}
                     src="/profile.png"
-                    width="40px"
+                    height="40"
+                    width="40"
                     alt="profile picture"
                   />
                 </span>
