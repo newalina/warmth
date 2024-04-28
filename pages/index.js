@@ -83,7 +83,7 @@ export default function Home() {
       lastName: "Garcia",
       email: "alexander@email.com",
       phone: "(999) 999-9999",
-      imagePath: "profile.png",
+      imageUrl: "profile.png",
     },
   ];
 
@@ -118,6 +118,11 @@ export default function Home() {
                 </summary>
               </details>
               <div className="content">
+                <div className={styles.info}>
+                  <a href={`mailto:${contact.email}`}>{contact.email}</a>
+                  {" • "}
+                  <a href={`tel:${contact.phone}`}>{contact.phone}</a>
+                </div>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Aliquam dapibus rutrum feugiat. Curabitur dictum ex eget

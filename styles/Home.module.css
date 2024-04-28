@@ -41,6 +41,11 @@
   margin-left: auto;
 }
 
+.info {
+  color: #a7715f;
+  /* font-weight: 600; */
+}
+
 @media (max-width: 1024px) {
   .main {
     flex-direction: column;
