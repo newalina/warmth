@@ -47,7 +47,7 @@ details[open] span::before {
 }
 
 hr {
-  border: 0.6px solid rgb(203 213 225);
+  border: 0.6px solid #cbd5e1;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Lato:100);
