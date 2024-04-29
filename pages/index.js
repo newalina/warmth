@@ -2,7 +2,9 @@ import { useState, useEffect } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import ContactList from "./components/ContactList";
+import ContactList from "./components/ContactList/ContactList";
+import SearchBar from "./components/SearchBar/SearchBar";
+import SortOptions from "./components/SortOptions/SortOptions";
 import contacts from "../public/contacts.json";
 
 export default function Home() {
@@ -60,56 +62,8 @@ export default function Home() {
           <div className={styles.title}>
             <h1>Contacts</h1>
             <div className={styles.nav}>
-              <div>
-                <input
-                  className={styles.search}
-                  type="text"
-                  placeholder="Search"
-                  defaultValue={searchTerm}
-                  onChange={(e) => setSearchTerm(e.target.value)}
-                />
-              </div>
-
-              <div className={styles.sort}>
-                <fieldset className={styles.fieldset}>
-                  <legend>Sort</legend>
-                  <div>
-                    <input
-                      type="radio"
-                      id="firstName"
-                      name="sortOptions"
-                      value="firstName"
-                      checked={sortBy === "firstName"}
-                      onChange={() => setSortBy("firstName")}
-                    />
-                    <label htmlFor="firstName">First name</label>
-                  </div>
-
-                  <div>
-                    <input
-                      type="radio"
-                      id="lastName"
-                      name="sortOptions"
-                      value="lastName"
-                      checked={sortBy === "lastName"}
-                      onChange={() => setSortBy("lastName")}
-                    />
-                    <label htmlFor="lastName">Last name</label>
-                  </div>
-
-                  <div>
-                    <input
-                      type="radio"
-                      id="warmth"
-                      name="sortOptions"
-                      value="warmth"
-                      checked={sortBy === "warmth"}
-                      onChange={() => setSortBy("warmth")}
-                    />
-                    <label htmlFor="warmth">Warmth</label>
-                  </div>
-                </fieldset>
-              </div>
+              <SearchBar onSearch={setSearchTerm}></SearchBar>
+              <SortOptions sortBy={sortBy} setSortBy={setSortBy}></SortOptions>
             </div>
           </div>
           <ContactList contacts={sortedContacts}></ContactList>
