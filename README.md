@@ -64,5 +64,6 @@ To run tests, use the following command:
 
 ## Credit
 
-- [Smile by Gregor Cresnar from Noun Project](https://thenounproject.com/icon/smile-6368711/)
+- [Smile icon](https://thenounproject.com/icon/smile-6368711/)
+- [Details animation](https://medium.com/@jgustavo.wd/solved-how-to-fully-animate-the-details-html-element-with-only-css-no-javascript-b7d32c53a9d7)
 - [particles.js](https://vincentgarreau.com/particles.js/)
