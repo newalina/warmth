@@ -1,34 +1,68 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Hearth Contacts
+
+This project is a simple contacts management application built using Next.js and React. Users can view a table of contacts with detailed information about each contact, including an indicator for how warm or cold they are across integrations and teammates.
+
+## Features
+
+- Table of contacts displaying basic information
+- Detail view for each contact
+- Search contacts by name
+- Sort contacts by first name, last name, or warmth score
 
 ## Getting Started
 
-First, run the development server:
+### Installation
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Clone the repository to your local machine:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+`git clone https://github.com/newalina/warmth.git`
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Navigate to the project directory:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+`cd warmth`
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Install dependencies:
 
-## Learn More
+`npm install`
 
-To learn more about Next.js, take a look at the following resources:
+### Running the Application
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Start the development server:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+`npm run dev`
 
-## Deploy on Vercel
+Open your web browser and visit http://localhost:3000 to view the application.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Running Tests
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+To run tests, use the following command:
+
+`npm test`
+
+## Project Structure
+
+    warmth/
+    ├── components/
+    │   ├── ContactList/
+    │   │   ├── ContactList.js
+    │   │   └── ContactList.module.css
+    │   ├── SearchBar/
+    │   │   ├── SearchBar.js
+    │   │   └── SearchBar.module.css
+    │   ├── SortOptions/
+    │   │   ├── SortOptions.js
+    │   │   └── SortOptions.module.css
+    ├── pages/
+    │   ├── index.js
+    ├── public/
+    │   └── contacts.json
+    ├── styles/
+    │   └── Home.module.css
+    ├── .gitignore
+    ├── package.json
+    └── README.md
+
+## Credit
+
+- [Smile by Gregor Cresnar from Noun Project](https://thenounproject.com/icon/smile-6368711/)
+- [particles.js](https://vincentgarreau.com/particles.js/)
