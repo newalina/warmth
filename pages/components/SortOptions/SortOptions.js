@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "./SortOptions.module.css";
 
 export default function SortOptions({ sortBy, setSortBy }) {
@@ -16,7 +17,6 @@ export default function SortOptions({ sortBy, setSortBy }) {
           />
           <label htmlFor="firstName">First name</label>
         </div>
-
         <div>
           <input
             type="radio"
@@ -28,7 +28,6 @@ export default function SortOptions({ sortBy, setSortBy }) {
           />
           <label htmlFor="lastName">Last name</label>
         </div>
-
         <div>
           <input
             type="radio"

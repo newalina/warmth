@@ -37,7 +37,7 @@ div.content {
 }
 
 details[open] + div.content {
-  max-height: 400px; /* Set a max-height value enough to show all the content */
+  max-height: 400px; /* enough to show all content */
   transition: max-height 0.8s ease-out;
 }
 

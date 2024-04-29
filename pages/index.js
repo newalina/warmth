@@ -1,3 +1,4 @@
+import React from "react";
 import { useState, useEffect } from "react";
 import Head from "next/head";
 import Image from "next/image";
@@ -50,14 +51,12 @@ export default function Home() {
   return (
     <div className={styles.background}>
       <div id="particles-js" className={styles.particles}></div>
-
-      <div id="particles-js" className={styles.container}>
+      <div className={styles.container}>
         <Head>
           <title>Contacts</title>
           <meta name="author" content="newalina" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
-
         <main className={styles.main}>
           <div className={styles.title}>
             <h1>Contacts</h1>
