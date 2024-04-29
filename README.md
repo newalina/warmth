@@ -1,4 +1,4 @@
-# Hearth Contacts
+# Hearth AI Contacts
 
 This project is a simple contacts management application built using Next.js and React. Users can view a table of contacts with detailed information about each contact, including an indicator for how warm or cold they are across integrations and teammates.
 

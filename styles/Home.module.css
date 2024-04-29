@@ -26,6 +26,7 @@
 .title {
   flex: 0 0 40%;
   font-weight: 600;
+  position: fixed;
 }
 
 .title h1 {
@@ -38,6 +39,9 @@
 .nav {
   margin-top: 0;
   width: 100%;
+
+  /* position: fixed; */
+  /* line-height: 1.4; */
   color: #334155;
 }
 
@@ -48,6 +52,7 @@
 
   .title {
     flex: 0 0 100%;
+    position: relative;
   }
 
   .title h1 {
