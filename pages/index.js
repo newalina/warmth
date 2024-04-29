@@ -54,7 +54,7 @@ export default function Home() {
         <Head>
           <title>Contacts</title>
           <meta name="author" content="newalina" />
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/logo.ico" />
         </Head>
         <main className={styles.main}>
           <div className={styles.title}>
