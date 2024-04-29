@@ -13,30 +13,19 @@
 
 .container {
   padding: 0 4vw;
-  /* background-color: #a7715f; */
   color: #334155;
 }
 
 .main {
   min-height: 100vh;
   padding: 8rem 4rem;
-  /* flex: 1; */
   display: flex;
   flex-wrap: wrap;
-  /* flex-direction: row; */
-  /* justify-content: center;
-  align-items: center; */
 }
 
 .title {
   flex: 0 0 40%;
-  /* margin: 0 2rem; */
-  /* line-height: 1.15; */
-  /* font-size: 4rem; */
   font-weight: 600;
-  /* position: fixed; */
-  /* top: 0;
-  left: 0; */
 }
 
 .title h1 {
@@ -49,9 +38,6 @@
 .nav {
   margin-top: 0;
   width: 100%;
-
-  /* position: fixed; */
-  /* line-height: 1.4; */
   color: #334155;
 }
 

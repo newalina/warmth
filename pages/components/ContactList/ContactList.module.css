@@ -2,10 +2,6 @@
   flex: 0 0 60%;
   margin-left: auto;
   overflow-y: auto;
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* flex-wrap: wrap; */
-  /* max-width: 50vw; */
 }
 
 .profile {
@@ -14,7 +10,6 @@
 
 .info {
   color: #a7715f;
-  /* font-weight: 600; */
 }
 
 .contact {

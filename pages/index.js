@@ -1,7 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import ContactList from "./components/ContactList/ContactList";
 import SearchBar from "./components/SearchBar/SearchBar";
